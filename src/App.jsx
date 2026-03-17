@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
 
 const App = () => {
   return (
     <div>
-      <h1 className='text-5xl text-red-600 text-center justify-between font-extrabold underline '>Plate By Shiru</h1>
+      <Navbar />
+      <Hero />
     </div>
   )
 }
